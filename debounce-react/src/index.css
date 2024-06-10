@@ -1,0 +1,62 @@
+:root {
+
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+}
+
+
+
+
+.app {
+  display: flex;
+  flex-direction: column;
+  gap: 5;
+  justify-content: center;
+  align-items: center;
+}
+.input__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+#product__image {
+  height: 200px;
+  width: 200px;
+}
+
+.product__card {
+  margin: 2px;
+  padding: 5px;
+  border: 2px solid rgb(192, 192, 255);
+  border-radius: 10px;
+  width: 250px;
+  height: fit-content;
+  background: rgba(1, 17, 1, 0.933);
+}
+
+
+.loader{
+  font-size: 35px;
+  animation: circular linear 1s infinite ;
+
+}
+
+@keyframes circular{
+  from {
+    rotate: 0deg;
+  }
+  to{
+    rotate: 360deg;
+  }
+}

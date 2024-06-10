@@ -1,0 +1,29 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+    background: #050514;
+    color: #fff;
+}
+
+#input{
+padding: 5px;
+outline: none;
+border: none;
+border-bottom: 3px solid pink;
+font-size: 20px;
+
+}
+
+
+#fetch{
+    background-color: #828eff;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 4px;
+    outline: none;
+    border: noe;
+}
+
+.container{
+
+}
